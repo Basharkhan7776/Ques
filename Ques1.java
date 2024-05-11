@@ -1,4 +1,4 @@
-public class Ques1 {
+public class SearchRotatedArr {
     public static int search(int[] arr, int key) {
         if (arr.length == 0 || (arr.length == 1 && arr[0] != key)) {
             return -1;
